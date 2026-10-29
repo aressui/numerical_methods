@@ -165,7 +165,7 @@ def main():
             x1_0 = float(file.readline())
             x2_0 = float(file.readline())
     except (OSError, ValueError):
-        print("Ошибка чтения input.txt. Проверьте файл и его содержимое.")
+        print("Ошибка чтения файла.")
         return
 
     if epsilon <= 0 or x1_0 <= -1:
